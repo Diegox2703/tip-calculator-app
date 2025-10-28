@@ -1,0 +1,6 @@
+Donde esta lo que hay que explicar o aprender en Notion:
+
+- index.css
+- Calculator.tsx
+- TotalItems.tsx
+- calculator.store.ts
