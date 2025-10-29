@@ -28,7 +28,6 @@ const useCalculatorStore = create<Calculator>((set, get) => ({
         tip: newTip
     })),
     tipAmount: () => (get().bill * get().tip / 100) / get().people,
-    // Explicar get() de zustand
     total: () => (get().bill + (get().bill * get().tip / 100)) / get().people,
     reset: () => set({ bill: 100, people: 1, tip: 5 })
 }))

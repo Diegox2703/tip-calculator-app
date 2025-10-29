@@ -1,6 +1,5 @@
 @import "tailwindcss";
 
-/* Explicar como usar un font descargado */
 @font-face {
     font-family: 'Space Mono';
     font-weight: 400;
@@ -9,7 +8,6 @@
     src: url('./assets/fonts/Space_Mono/SpaceMono-Regular.ttf');
 }
 
-/* Explicar creacion de variables en tailwind */
 @theme {
     --color-Orange-400: hsl(13, 70%, 60%);
     --color-Green-900: hsl(183, 100%, 15%);
@@ -24,6 +22,5 @@
 }
 
 body {
-    /* Explicar uso de varibles de tailwind */
     @apply bg-Grey-200 font-Space-Mono
 }

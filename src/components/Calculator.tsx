@@ -1,7 +1,6 @@
 import { Input, PercentButton, Totals, CustomButton } from "../components";
 import useCalculatorStore from "../store/calculator.store";
 
-// Explicar crear multiples componentes con una constante
 const percents: number[] = [5, 10, 15, 25, 50]
 
 export function Calculator() {
